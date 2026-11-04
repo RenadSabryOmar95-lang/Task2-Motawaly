@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1d4ed8;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 8px;
+}
+
+.info {
+    background-color: #dbeafe;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #2563eb;
+    padding: 12px;
+}
+
+th {
+    background-color: #172554;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dbeafe;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+<section>
+    <h2>أهم مفاهيم JavaScript</h2>
+
+    <h3>1- المتغيرات (Variables)</h3>
+    <p>تُستخدم لتخزين البيانات والمعلومات داخل البرنامج.</p>
+
+    <h3>2- الدوال (Functions)</h3>
+    <p>مجموعة من الأوامر يتم تنفيذها عند استدعاء الدالة.</p>
+
+    <h3>3- الشروط (Conditions)</h3>
+    <p>تساعد البرنامج على اتخاذ القرارات بناءً على شروط معينة.</p>
+
+    <h3>4- الأحداث (Events)</h3>
+    <p>تسمح للصفحة بالاستجابة لتفاعل المستخدم مثل الضغط على زر.</p>
+</section>
